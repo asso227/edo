@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>€[Nome del Negozio]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .reviews, .videos {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .videos a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #50b3a2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>€[Nome del Negozio]</h1>
+            </div>
+        </div>
+    </header>
+
+    <section class="container">
+        <h2>Informazioni di Contatto</h2>
+        <p><strong>Luogo:</strong> €[Indirizzo del Negozio]</p>
+        <p><strong>Telefono:</strong> €[Numero di Telefono]</p>
+    </section>
+
+    <section class="container reviews">
+        <h2>Recensioni</h2>
+        <p><strong>Cliente 1:</strong> €[Recensione del Cliente 1]</p>
+        <p><strong>Cliente 2:</strong> €[Recensione del Cliente 2]</p>
+    </section>
+
+    <section class="container videos">
+        <h2>I Miei Video</h2>
+        <a href="https://www.instagram.com/ledoperte?igsh=OGN3cnV2aTBwOGht" target="_blank">Guarda i nostri video su Instagram</a>
+    </section>
+</body>
+</html>
